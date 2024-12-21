@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
@@ -15,7 +15,7 @@ const App = () => {
 };
 
 // Header Component
-const Header = () => (
+const Header: React.FC = () => (
   <header>
     <h1>Inyat Nathani</h1>
     <nav>
@@ -30,7 +30,7 @@ const Header = () => (
 );
 
 // About Me Section
-const About = () => (
+const About: React.FC = () => (
   <section id="about">
     <h2>About Me</h2>
     <p>I'm a software developer and IT consultant specializing in building websites, webshops, and server management solutions for businesses. Currently, I'm looking to contribute to companies that want to optimize their online presence.</p>
@@ -39,7 +39,7 @@ const About = () => (
 );
 
 // Skills Section
-const Skills = () => (
+const Skills: React.FC = () => (
   <section id="skills">
     <h2>Skills</h2>
     <ul>
@@ -54,7 +54,7 @@ const Skills = () => (
 );
 
 // Projects Section
-const Projects = () => (
+const Projects: React.FC = () => (
   <section id="projects">
     <h2>Projects</h2>
     <div className="project">
@@ -73,7 +73,7 @@ const Projects = () => (
 );
 
 // Contact Section
-const Contact = () => (
+const Contact: React.FC = () => (
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:inyat.nathani@gmail.com">inyat.nathani@gmail.com</a></p>
@@ -82,7 +82,7 @@ const Contact = () => (
 );
 
 // Footer Component
-const Footer = () => (
+const Footer: React.FC = () => (
   <footer>
     <p>&copy; 2024 Inyat Nathani. All rights reserved.</p>
   </footer>
